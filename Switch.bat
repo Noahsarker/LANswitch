@@ -21,9 +21,9 @@ goto :eof
 :end
 for /f "skip=2 tokens=3" %%a in ('reg query %regpath% /v ProxyEnable') do (
    if /i "%%a"=="0x1" (
-      echo ´úÀí·şÎñÆ÷ÒÑ¾­´ò¿ª
+      echo ä»£ç†æœåŠ¡å™¨å·²ç»æ‰“å¼€
     ) else (
-      echo ´úÀí·şÎñÆ÷ÒÑ¾­¹Ø±Õ
+      echo ä»£ç†æœåŠ¡å™¨å·²ç»å…³é—­
     )
 )
 goto :eof
